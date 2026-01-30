@@ -1,5 +1,9 @@
 library(readxl)
 
+args <- commandArgs(T)
+datadir <- args[1]
+resultsdir <- args[2]
+
 datadir <- "."
 resultsdir <- "results"
 
