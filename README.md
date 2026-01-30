@@ -8,3 +8,11 @@ mamba env create -f environment.yml
 mamba activate rhds
 Rscript install.r
 
+For analysis run the scripts in order:
+1. extract-data.r
+2. clean-clinical.r 
+3. predict-proteins.r
+4. combine.r
+5. analysis.r
+
+Run the analysis.qmd and initial_analysis.ipynb to generate an RMarkdown and Jupyter Notebook document
